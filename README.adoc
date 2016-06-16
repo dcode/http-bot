@@ -1,0 +1,15 @@
+= README
+
+Keep it simple. To run, you need to provide a CSV file which you can generate by doing
+
+[source,shell]
+----
+python scrape_topsites_by_country.py 500 US > us_sites.csv
+----
+
+Then, you can run the HTTP bot by feeding it in.
+
+[source,shell]
+----
+python http_gauss_browse.py us_sites.csv
+----
