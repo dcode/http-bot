@@ -4,7 +4,7 @@ Keep it simple. To run, you need to provide a CSV file which you can generate by
 
 [source,shell]
 ----
-python scrape_topsites_by_country.py 500 US > us_sites.csv
+python scrape_topsites_by_country.py US 500 > us_sites.csv
 ----
 
 Then, you can run the HTTP bot by feeding it in.
